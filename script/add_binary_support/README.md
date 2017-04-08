@@ -6,7 +6,7 @@
 
 a. 使用TemplatedVocabulary.h替换Thirdparty/DBoW2/DBoW2/下同名文件，其实就是为了增加loadFromBinaryFile和saveToBinaryFile这两个函数。
 
-b. 将tools文件夹复制到根目录下
+b. 将tools文件夹复制到根目录下，里面包含将txt格式的Voc转换成bin的工具。
 
 c. 将System.cc中的bool bVocLoad = mpVocabulary->loadFromTextFile(strVocFile);修改成
 
